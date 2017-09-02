@@ -1,0 +1,8 @@
+// kääntäminen
+avr-gcc -mmcu=attiny861 vilkutus.c salama.c -I./ -Os -DF_CPU=8000000UL  
+
+// Fläsäys käyttäen arduino-isp:tä
+avrdude -c avrisp -p t861 -B3 -P /dev/ttyUSB0 -b 19200 -U flash:w:a.out
+
+// Fuse asetukset käyttäen arduino-isp:tä
+avrdude -c avrisp -p t861 -B3 -P /dev/ttyUSB0 -b 19200 -U lfuse:w:0xe2:m -U hfuse:w:0xdf:m

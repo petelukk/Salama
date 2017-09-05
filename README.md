@@ -1,16 +1,16 @@
 # Salama
 Sikin led salamaan ja Otit led merkkiin koodi, piirilevy ja ohjeet
 
-##Piirilevyt
+## Piirilevyt
 Piirretty Kicadilla.
 Todo: Syövytystä varten maskit. Sik maski saattaa löytyä vielä jostain. Otitille ei ole tehty vaan levyt jyrsittiin.
 
-###Piirilevyn kasausohje
+### Piirilevyn kasausohje
 TODO Pittää ettiä jostain...
 
-##Koodi
+## Ohjelma
 
-Koodi siirtyy levylle kätevästi käyttäen arduinoa ohjelmointilaitteena.
+Ohjelma siirtyy levylle kätevästi käyttäen arduinoa ohjelmointilaitteena.
 
 ```
 Salaman ohjelmointiliittimen pinnit keskeltä reunalle:
